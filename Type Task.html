@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='stylesheet.css'/>
+    <link rel='stylesheet' href='typestylesheet.css'/>
+    <title>Luke Hammond Website</title>
+
+
+</head>
+
+
+
+
+<body>
+
+    <header>
+        <a href="Homepage.html" class = "logo">Home</a>
+        <ul>
+            <li><a href = "carp.html">CARP</a></li>
+            <li><a href = "Type Task.html">Type</a></li>
+            <li><a href = "UX.html">UX</a></li>
+            <li><a href = "CodingTask.html">Code</a></li>
+            <li><a href = "Reflection Report.html">Report</a></li>
+        </ul>
+    </header>
+    <section class = "banner"></section>
+    <section class="type-task-section">
+    <!--<header>
+        <h1>Type Task</h1>
+        <ul>
+            <div class="type-container-navigation">
+               <button><a href="#Axial">Axial</a></li>
+               <button><a href="#Bilateral">Bilateral</a></li>
+               <button><a href="#Dilatational">Dilatational</a></li>
+               <button><a href="#Grid">Grid</a></li>
+               <button><a href="#Modular">Modular</a></li>
+               <button><a href="#Radial">Radial</a></li>
+               <button><a href="#Random">Random<a></li>
+               <button><a href="#Transitional">Transitional</a></li>
+             </div>
+        </ul>
+    </header> -->
+
+
+    <!--changing code-->
+
+    <main>
+        <div class = "subtitle">
+            <h1>Type Task</h1>
+        </div>
+
+        <div class = "media-section">
+            <img class = "typeimage" src = "TypeTaskPNG/Axial System.png">
+            <div class = "mediacontent">Axial designs are symmetrical or asymmetrical around the axis. This axis does not have to be visible. 
+            This is different to bilateral as the design is centred on the line. My design has all the lines visible and contains symmetrical text. </div>
+        </div>
+
+        <div class = "media-section">
+            <img class = "typeimage" src = "TypeTaskPNG/Bilateral design.png">
+            <div class = "mediacontent">All the designs are centred along an axis with the intention of being symmetrical. The axis can be diagonal, off-centre or just in the middle. 
+            There is no restriction to how many axes you can have in one design. My design involves two parallel squares and text that stem from it. All key information is in bold. 
+            The design is not symmetrical which makes the squares more impactful and stand out without a drop shadow. 
+            The contrasting colour scheme of yellow and black makes the bold words in black more alluring to the eyes.</div>
+        </div>
+
+        <div class = "media-section">
+            <img class = "typeimage" src = "TypeTaskPNG/Dilatational design.png">
+            <div class = "mediacontent">The text forms a curve/arch/warp around a focal point. You could do this along an axis or make it appear as if it’s going around a circle. 
+            My design uses the colour scheme of black and a pinkish hue. Once again, the drop shadow brings the numbers to the forefront. 
+            Around the curves of the numbers, I have details of the event and then along the axis I have the remaining information.</div>
+        </div>
+
+        <div class = "media-section">
+            <img class = "typeimage" src = "TypeTaskPNG/Grid design.png">
+            <div class = "mediacontent">Designed for ease of navigation the grid design has visible boundaries and margins that make it easier for a user to follow along the page. 
+            Text is usually the main and most important point, so visuals are usually included to fill up space within the grid. My grid design does just that. 
+            My grid is visibly 4x4 with the text running symmetrical of each other. 
+            I have a bar running down the right side which takes a 1/4 of the screen and is also accompanied by a circle that takes another 1/4 of the screen.</div>
+        </div>
+
+        <div class = "media-section-right">
+            <img class = "typeimage" src = "TypeTaskPNG/Modular design.png">
+            <div class = "mediacontent-right">Modular design incorporates shapes and illustrations to be a container for information. 
+            My modular design involves black, blue and white as the colour scheme. The design runs centrally down the page using hollowed squares and filled circles, 
+            this provides a patter/repetition.</div>
+        </div>
+
+        <!--
+        <div class = "media-section">
+            <div class = "media-container-right">
+                    <img class = "typeimage" src = "TypeTaskPNG/Radial Design copy.png">
+                <div class = "mediacontent">Radial has a circular focal point with all the content radiating from either inside or outside. 
+                My radial design has a mixture of text within the circle, but the majority is outside the circle. 
+                This design incorporates a green and black colour scheme as well as drop shadows on two of the circles to bring them further to the forefront. </div>
+            </div>
+        </div>
+
+        <div class = "media-section">
+            <div class = "media-container-right">
+                    <img class = "typeimage" src = "TypeTaskPNG/Random design.png">
+                <div class = "mediacontent">Random design has no arrangement but still remains visible for the user to interpret the required information. 
+                My random design has scattered information that has a mix of colour, fonts, alignments and angles. The text is made to stand out more with the shapes free flowing along the page. 
+                Some of the shapes have drop shadows, been distorted or they are not filled in. </div>
+            </div>
+        </div>
+
+        <div class = "media-section">
+            <div class = "media-container-right">
+                    <img class = "typeimage" src = "TypeTaskPNG/Transitional Design.png">
+                <div class= "mediacontent">Lines of type may appear random but hierarchy within the lines of types help a user navigate the order it was intended to be seen in. 
+                The transitional design can be compared to sedimentary layers of rock (strata). This design usually has text stand out more when accompanied by illustrations. 
+                My transitional design incorporates colour contrast of red and black. 
+                The shapes in the middle have been split and flow like a mountain side to reflect on the idea of transitional designs being similar to layers of rock. 
+                The text is in a visible hierarchy when reading so it is easy to see the intended order of reading and key information has been made to be bold. </div>
+            </div>
+        </div>
+
+    -->
+
+    </main>
+    </section>
+
+    <!--Javascript needs to be at the bottom-->
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>

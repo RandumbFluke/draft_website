@@ -1,0 +1,64 @@
+body{
+    background-color: blueviolet;
+}
+
+.section-one{
+    padding-top: 40px;
+    background-color: forestgreen;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.section-two{
+    background-color: gold;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 500px;
+}
+
+.section-three{
+    /*background-color: black;*/
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 500px;
+}
+
+.section-four{
+    /*background-color: chartreuse;*/
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 500px;
+}
+
+.mainimage{
+    width: 600px;
+}
+
+.socialmediaimages{
+    width: 200px;
+    height: 200px;
+}
+
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.mediacontent{
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}

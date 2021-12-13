@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='stylesheet.css'/>
+    <link rel='stylesheet' href='carpstylesheet.css'/>
+    <title>Luke Hammond Website</title>
+</head>
+
+<body>
+    <header>
+        <a href="Homepage.html" class = "logo">Home</a>
+        <ul>
+            <li><a href = "carp.html">CARP</a></li>
+            <li><a href = "Type Task.html">Type</a></li>
+            <li><a href = "UX.html">UX</a></li>
+            <li><a href = "CodingTask.html">Code</a></li>
+            <li><a href = "Reflection Report.html">Report</a></li>
+        </ul>
+    </header>
+    <section class = "banner"></section>
+
+    <main>
+
+        <div class = "subtitle">CARP Task</div>
+       <!-- <div class = "subtitle"><h1>Final Design</h1></div> -->
+        <div class = "section-one">
+            <img class = "carpimage" src="CarpTaskPNG/Popcorn design.png">
+            <div class = "mediacontent-middle"><p>I began on any of my posters, I made a moodboard on what films mean to me, following this I picked my favourite themes and created posters around them. Following this I completed a rough draft of each poster on graph paper to get a feel for the size and limitations of each piece. This design was inspired by popcorn. As can be seen the True/False logo is part of the popcorn. This was done via Adobe After Effects. This poster makes advantage of contrasting colours to allow for easy and visible text. Important information is made eye-catching with the use of alignment, apparent in the bottom right of the poster. The “Akira expanded” font of the “true/false festival” truly suggests the movie feel and guides the audience to know what the poster suggests at a glance.</p></div>                
+        </div>
+        
+        <div class = "section-two">
+            <div class = "image-group">
+                <img class = "secondary-images" src="CarpTaskPNG/polaroid design fixed.png">
+                <div class = "caption"><p>The polaroid design was the simplest design. All the information is shown around the true/logo, while the true false logo is central and used as a focal point for the piece. The information on the top and bottom of the logo is shown using dilatational design. It is also clear to an audience which order the text is supposed to be read in. The lines bordering the logo add a little ‘flair’ to the piece and reinforces the logo as the main focal point. The squares the logo sits on have been rotated and each one has a drop shadow. This pushes the true false logo to the forefront and gives the illusion of a 3d polaroid image. The text at the bottom of the polaroid finishes off the polaroid design by adding a caption to the image.</p></div>
+            </div>
+
+            <div class = "image-group">
+                <img class = "secondary-images" src="CarpTaskPNG/Newspaper collage design.png">
+                <div class = "caption"><p>The background of the newspaper collage uses an image I found on google as a reference. In addition to this the polaroid image was also found off of google. I made a few changes to the image via Adobe After Effects and Illustrator. In After Effects I mirrored the image and then masked the true false logo to appear in the polaroid. Taking this image from After Effects I put it into illustrator and added the text above. The font above the logo has connotations to the fonts used in newspaper headlines. The body of texts use a different font to show they are the body of text. These body of texts are then filled in with a colour to stand at the forefront of the poster. The only bit of colour in the poster is the yellow background in the polaroid image. This use of contrast makes the image stand out on the page and makes the true false logo which may not have been as noticeable very apparent in the poster.</p></div>
+            </div>
+        </div>
+    </main>
+
+
+    <!--Javascript needs to be at the bottom-->
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>

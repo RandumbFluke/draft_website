@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='stylesheet.css'/>
+    <link rel='stylesheet' href='homestylesheet.css'/>
+    <title>Luke Hammond Website</title>
+</head>
+<body>
+    <header>
+        <a href="Homepage.html" class = "logo">Home</a>
+        <ul>
+            <li><a href = "carp.html">CARP</a></li>
+            <li><a href = "Type Task.html">Type</a></li>
+            <li><a href = "UX.html">UX</a></li>
+            <li><a href = "CodingTask.html">Code</a></li>
+            <li><a href = "Reflection Report.html">Report</a></li>
+        </ul>
+    </header>
+    <section class = "banner"></section>
+
+    <main>
+
+        <div class = "subtitle">About Me</div>
+        <div class = "section-one">
+            <img class = "mainimage" src = "Images of me/Smart.jpg">
+            <div class = "mediacontent">Hello User and welcome to my website!</div>
+            <div class = "mediacontent">My name is Luke Hammond, and this is the first website I have ever designed. I am a digital media student at UWE Bristol. This website has been designed for one of my modules, but it is also an experience to test my knowledge and experience with html/css. This website has enabled me to share my work from my module. These pieces of work were done via a variety of Adobe software such as Illustrator, InDesign, Photoshop and After Effects.</div>
+            <div class = "mediacontent">Down below you can find a download link for my CV as well as links to my social media accounts. This includes my personal Instagram, my Tik Tok account I upload the edits I have made (this account also has a link to my secondary Instagram which also has edits) as well as a link to LinkedIn. </div>
+        </div>
+
+        <div class = "section-two">
+            <a href = "Documents about me/Luke CV.pdf" target="_blank" download>
+                <img src = "http://placekitten.com/200/200">
+            </a>
+        </div>
+
+        <div class = "section-three">
+            <a href = "https://www.instagram.com/ran.dmb/" target="_blank"><img class = "socialmediaimages" src = "Logo/instagram logo.png"></a>
+        </div>
+
+        <div class = "section-four">
+            <a href="https://www.tiktok.com/@randumbedit?lang=en" target="_blank"><img class = "socialmediaimages" src = "Logo/tik tok logo.png"></a>
+        </div>
+
+        <div class = "section-three">
+            <a href="https://uk.linkedin.com/" target="_blank"><img class = "socialmediaimages" src = "Logo/linkedin logo.png"></a>
+        </div>
+
+    </main>
+
+    <!--Javascript needs to be at the bottom-->
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>

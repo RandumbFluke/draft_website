@@ -1,0 +1,77 @@
+/* Carp Task */
+
+body{
+    background-color: turquoise;
+}
+.section-one{
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-container {
+    display: flex;
+    /*padding: 15px 25px 15px 15px; */
+}
+
+.subtitle{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.carpimage{
+    border: 1px dashed white;
+    width: 500px;
+    padding: 4px;
+}
+
+.mediacontent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+.mediacontent-middle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.media-container .mediacontent{
+    flex: 1;
+    padding: 10px;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} 
+
+.secondary-images{
+    border: 1px dashed white;
+    width: 400px;
+    padding: 4px;
+}
+
+.container{
+    display: flex;
+}
+
+.caption{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+    text-align: wrap;
+}
+
+.image-group{
+    width: 400px;
+    justify-content: space-evenly
+}

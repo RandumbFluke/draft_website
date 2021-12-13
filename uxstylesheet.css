@@ -1,0 +1,25 @@
+body{
+    background-color: deeppink;
+}
+
+.section-one{
+    background-color: forestgreen;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.section-two{
+    background-color: gold;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.uximage{
+    width: 300px;
+}

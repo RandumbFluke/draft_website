@@ -1,0 +1,20 @@
+body{
+    background-color: crimson;
+}
+
+.section-one{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainimage{
+    box-shadow: #888888;
+}
+
+.section-two{
+    height: 600px;
+}
+
+

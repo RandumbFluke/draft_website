@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='stylesheet.css'/>
+    <link rel='stylesheet' href='uxstylesheet.css'/>
+    <title>Luke Hammond Website</title>
+</head>
+<body>
+    <header>
+        <a href="Homepage.html" class = "logo">Home</a>
+        <ul>
+            <li><a href = "carp.html">CARP</a></li>
+            <li><a href = "Type Task.html">Type</a></li>
+            <li><a href = "UX.html">UX</a></li>
+            <li><a href = "CodingTask.html">Code</a></li>
+            <li><a href = "Reflection Report.html">Report</a></li>
+        </ul>
+    </header>
+    <section class = "banner"></section>
+
+    <main>
+        <div class = "section-one">
+            <img class = "uximage" src = "http://placekitten.com/400/400">
+        </div>
+
+        <div class = "section-two">
+            <img class = "uximage" src = "http://placekitten.com/400/400">
+        </div>
+    </main>
+
+    <!--Javascript needs to be at the bottom-->
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    
+
+</body>
+</html>
